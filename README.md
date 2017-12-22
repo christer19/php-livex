@@ -27,7 +27,7 @@ See http://www.developers.liv-ex.com/ for more information.
 
 ### Quick Example: Get all CellarView items
 
-`PHP
+```PHP
 
 use \Conduit\LivEx\CellarView2;
 use \Conduit\LivEx\Error;
