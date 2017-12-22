@@ -1,0 +1,30 @@
+{
+    "name": "conduit/php-livex",
+    "description": "A PHP API adapter for the Liv-Ex fine wine stock exchange platform",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Lawton",
+            "email": "tom.lawton@cndu.it"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Conduit\\LivEx\\": "src/"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+  "scripts": {
+    "test": [
+      "php ./vendor/phpunit/phpunit/phpunit --bootstrap tests/suite.php tests/ --testdox"
+    ],
+    "docs": [
+      "php ./vendor/bin/phpdoc.php -d ./src -t ./docs/api"
+    ]
+  }
+}
