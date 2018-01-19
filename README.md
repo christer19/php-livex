@@ -8,6 +8,17 @@ See http://www.developers.liv-ex.com/ for more information.
 
 - Currently, only [CellarView2](https://e767cb5f8a24933f1193-10d7789927afb962c5fef2cb2f4d8412.ssl.cf3.rackcdn.com/Cellar%20View%202%20API%20Documentation_v4.pdf) functionality is implemented. Full coverage of all APIs are planned.
 
+## Feature Roadmap
+
+1. CellarView2 (Working, ~50% test coverage)
+2. LWIN API
+3. Logistics API
+4. Broking APIs
+5. Valuations
+6. Direct Market Access / Exchange Integration
+7. Trading Alerts
+8. My Account APIs
+
 ## Dependencies
 
 - PHP 5.5.38 or newer
