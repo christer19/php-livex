@@ -26,6 +26,8 @@ class LWIN {
     $this->lwin7 = null;
     $this->lwin = null;
 
+    $in = preg_replace("/[^0-9]/", "", $in); // Strip all nonnumeric chars
+
     $this->set($in);
   }
 
