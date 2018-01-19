@@ -2,7 +2,7 @@
     "name": "conduit/php-livex",
     "description": "A PHP API adapter for the Liv-Ex fine wine stock exchange platform",
     "type": "library",
-    "license": "GPL2",
+    "license": "GPL-2.0",
     "authors": [
         {
             "name": "Tom Lawton",
