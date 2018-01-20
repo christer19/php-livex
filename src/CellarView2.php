@@ -1,6 +1,6 @@
 <?php
 
-namespace Conduit\LivEx;
+namespace Conduit\LivEx\Logistics;
 use Conduit\LivEx\Error;
 use Conduit\LivEx\ConnectionV2;
 

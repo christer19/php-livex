@@ -2,7 +2,7 @@
 
 namespace Conduit\LivEx;
 
-class LWIN {
+class LWINType {
 
   public $isValid;
   public $vintage;
@@ -137,3 +137,4 @@ class LWIN {
   }
 
 }
+

@@ -7,7 +7,7 @@ final class CellarView2Test extends TestCase {
   public function testCheckGetAllReturnsDataWhenCalledWithValidCredentials() {
     global $_DATA;
 
-    $cv = new Conduit\LivEx\CellarView2($_DATA['key'],$_DATA['secret']);
+    $cv = new Conduit\LivEx\Logistics\CellarView2($_DATA['key'],$_DATA['secret']);
 
     $ret = $cv->getAll();
 
@@ -20,7 +20,7 @@ final class CellarView2Test extends TestCase {
 
   public function testCheckGetAllReturnsAnErrorWhenCalledWithInvalidCredentials() {
 
-    $cv = new Conduit\LivEx\CellarView2('foo','bar');
+    $cv = new Conduit\LivEx\Logistics\CellarView2('foo','bar');
 
     $ret = $cv->getAll();
 
@@ -33,7 +33,7 @@ final class CellarView2Test extends TestCase {
   public function testCheckFindWithLwinReturnsDataWhenCalledWithValidCredentials() {
     global $_DATA;
 
-    $cv = new Conduit\LivEx\CellarView2($_DATA['key'],$_DATA['secret']);
+    $cv = new Conduit\LivEx\Logistics\CellarView2($_DATA['key'],$_DATA['secret']);
 
     $ret = $cv->findByLwin($_DATA['valid-lwin']);
 
@@ -47,7 +47,7 @@ final class CellarView2Test extends TestCase {
   public function testCheckFindWithSubAccountReturnsDataWhenCalledWithValidCredentials() {
     global $_DATA;
 
-    $cv = new Conduit\LivEx\CellarView2($_DATA['key'],$_DATA['secret']);
+    $cv = new Conduit\LivEx\Logistics\CellarView2($_DATA['key'],$_DATA['secret']);
 
     $ret = $cv->findBySubAccount($_DATA['valid-subaccount']);
 
@@ -61,7 +61,7 @@ final class CellarView2Test extends TestCase {
   public function testCheckFindWithBuyerRefReturnsDataWhenCalledWithValidCredentials() {
     global $_DATA;
 
-    $cv = new Conduit\LivEx\CellarView2($_DATA['key'],$_DATA['secret']);
+    $cv = new Conduit\LivEx\Logistics\CellarView2($_DATA['key'],$_DATA['secret']);
 
     $ret = $cv->findByBuyerRef($_DATA['valid-buyerref']);
 

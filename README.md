@@ -36,6 +36,14 @@ See http://www.developers.liv-ex.com/ for more information.
 
 *Note:* There is HTML API class documentation available in `docs/api`. 
 
+### Namespaces and organsiation
+
+PHP-LivEx is organised into a series of namespaces, closely matching the API categories on the Liv-Ex developer's site. Right now, these are:
+
+`Conduit\LivEx\Logistics`
+`Conduit\LivEx\LWIN`
+
+
 ### Quick Example: Get all CellarView items
 
 ```PHP
