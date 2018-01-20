@@ -48,7 +48,7 @@ PHP-LivEx is organised into a series of namespaces, closely matching the API cat
 
 ```PHP
 
-use \Conduit\LivEx\CellarView2;
+use \Conduit\LivEx\Logistics\CellarView2;
 use \Conduit\LivEx\Error;
 
 $cv = new CellarView2('<your api key>','<your api secret>','DEV');
@@ -67,7 +67,7 @@ var_dump($r); // An array of CellarView items.
 
 ```PHP
 
-use \Conduit\LivEx\CellarView2;
+use \Conduit\LivEx\Logistics\CellarView2;
 use \Conduit\LivEx\Error;
 
 $cv = new CellarView2('<your api key>','<your api secret>','DEV');
@@ -86,7 +86,7 @@ var_dump($r); // An array of CellarView items, attached to "subaccountcode".
 
 ```PHP
 
-use \Conduit\LivEx\CellarView2;
+use \Conduit\LivEx\Logistics\CellarView2;
 use \Conduit\LivEx\Error;
 
 $cv = new CellarView2('<your api key>','<your api secret>','DEV');
@@ -105,7 +105,7 @@ var_dump($r); // An array of CellarView items of type LWIN 100598920111200750
 
 ```PHP
 
-use \Conduit\LivEx\CellarView2;
+use \Conduit\LivEx\Logistics\CellarView2;
 use \Conduit\LivEx\Error;
 
 $cv = new CellarView2('<your api key>','<your api secret>','DEV');
